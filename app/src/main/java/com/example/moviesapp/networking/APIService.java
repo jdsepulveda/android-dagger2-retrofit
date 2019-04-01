@@ -8,7 +8,7 @@ import retrofit2.http.GET;
 import retrofit2.http.Path;
 
 public interface APIService {
-    String ApiKey = "4afa87898b6b5c83294b554c53123f64";
+    String ApiKey = "Personal API KEY";
 
     @GET("movie/popular?api_key=" + ApiKey)
     Call<MovieDBResponse> getMovies();
